@@ -37,8 +37,8 @@ public class ReinasPLI {
 		
 		r = r+"\n\n";
 		int m;
-		for (int d = -n+1; d < n; d++) {
-			first = true;
+		for (int d = 2*(n-1); d > -1; d--) {
+		first = true;
 			m=0;
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n; j++) {					
